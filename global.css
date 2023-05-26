@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Poppins:wght@300&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  margin-top: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  /* Align items at the start and end of the navbar */
+  align-items: center;
+
+
+}
+
+nav ul li {
+  display: inline-block;
+
+}
+
+nav ul li img {
+  width: 150px;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  width: 90px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+
+  color: #000000;
+
+
+}
+
+nav ul li a:hover {
+  text-decoration: underline #008E64 3px;
+
+}
+
+.signupbtn {
+  float: right;
+  border-color: transparent;
+  margin-right: 10px;
+
+
+}
+
+.signupbtn a {
+  background: #008E64;
+  border-radius: 24px;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: 'Lexend', sans-serif;
+  width: 150px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #008E64;
+  color: #fff;
+  padding: 60px;
+  font-family: 'Poppins';
+
+}
+
+footer .about {
+  width: 300px;
+}
+
+footer .about h2 {
+
+  font-size: 42px;
+  color: #fff;
+
+}
+
+footer .about p {
+  color: white;
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+
+footer .about small {
+  display: block;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: center;
+}
+
+footer .menu>div {
+  margin: 30px 40px;
+}
+
+footer .menu>div h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+footer .menu>div p {
+  margin-top: 30px;
+  color: white;
+}
+
+footer .menu a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Poppins:wght@300&display=swap');
+
+
+.sdg {
+  background: rgba(239, 192, 71, 1);
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sdg #player {
+  height: 300px;
+  margin-top: 10px;
+}
+
+.sdg h1 {
+  margin: 60px 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.sdg p {
+  margin: 60px 20px;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.sdg p span {
+  color: #008E64;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.sdg #join:hover {
+  background-color: #008E64;
+  color: white;
+
+}
+
+.sdg #join {
+  font-size: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bolder;
+  padding: 10px;
+  color: #008E64;
+  border-color: #008E64;
+  margin:0;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-left:20px;
+  margin-top:0px;
+  cursor: pointer;
+
+}
+
+.sdg .txt {
+  margin: 60px 20px;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 70%;
+  margin: lorem auto 0 auto;
+}
+
+.content img {
+  height: 300px;
+  width: 550px;
+  margin-left: 65px;
+}
+
+.content h1 {
+  color: #008E64;
+  justify-content: right;
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-left: 100px;
+}
+
+.content p {
+  color: rgb(24, 24, 24);
+  font-family: 'Lexend Deca', sans-serif;
+  margin-left: 100px;
+  justify-content: right;
+}
+
+
+#projects h3 {
+  text-align: center;
+  text-decoration: #008E64 wavy underline;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+
+  font-weight: lighter;
+}
+
+.card {
+
+  width: 210px;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 200px;
+  border: 5px rgba(0, 0, 0, 0.068) ;
+  border-radius: 2%;
+  box-shadow: 1px grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 85px;
+  margin-top: 30px;
+
+}
+
+.card h4 {
+  font-size: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: lighter;
+}
